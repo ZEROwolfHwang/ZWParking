@@ -1,0 +1,44 @@
+{
+  "name": "Parking",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "native-base": "^2.4.2",
+    "prop-types": "^15.6.0",
+    "react": "^16.3.0-alpha.1",
+    "react-native": "0.55.3",
+    "react-native-linear-gradient": "^2.4.0",
+    "react-native-modal-datetime-picker": "^4.13.0",
+    "react-native-modal-dropdown": "^0.6.2",
+    "react-native-pull": "^2.0.2",
+    "react-native-qrcode": "^0.2.6",
+    "react-native-qrcode-scanner": "^1.0.1",
+    "react-native-shadow": "^1.2.2",
+    "react-native-snap-carousel": "^3.6.0",
+    "react-native-storage": "^0.2.2",
+    "react-native-svg": "X.X.X",
+    "react-native-swiper": "^1.5.13",
+    "react-native-textinput-effects": "^0.4.2",
+    "react-native-vector-icons": "^4.4.2",
+    "react-navigation": "^1.5.9",
+    "react-navigation-redux-helpers": "^1.0.3",
+    "react-redux": "^5.0.6",
+    "realm": "2.2.15",
+    "redux": "^3.7.2",
+    "redux-saga": "^0.16.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.3",
+    "react-test-renderer": "^16.3.0-alpha.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
